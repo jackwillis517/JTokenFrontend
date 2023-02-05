@@ -13,7 +13,7 @@ const NavbarTopper = ({ connect, connected }) => {
           <Nav className="me-auto">
             <Nav.Link
               className="text-white pb-1"
-              href="https://jackwillis517.github.io/JacksWebsite/index.html"
+              href="https://jackwillis.netlify.app/"
             >
               My Portfolio
             </Nav.Link>
