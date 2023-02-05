@@ -1,6 +1,6 @@
 import { ethers } from "ethers";
 
-const tokenAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
+const tokenAddress = "0x33Fb5A93Db1765B5a5FDF6DA62Ef28b49CF8824b";
 const tokenAbi = [
   "constructor(uint256 initialSupply)",
   "event Approval(address indexed owner, address indexed spender, uint256 value)",
@@ -17,7 +17,7 @@ const tokenAbi = [
   "function transfer(address to, uint256 amount) returns (bool)",
   "function transferFrom(address from, address to, uint256 amount) returns (bool)",
 ];
-const exchangeAddress = "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512";
+const exchangeAddress = "0x9f39A8f4471d1947b35f1d35b9438680b33F611b";
 const exchangeAbi = [
   "constructor(address _token, uint256 _price)",
   "function buy(uint256 amount) payable",

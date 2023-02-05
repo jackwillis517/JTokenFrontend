@@ -45,7 +45,10 @@ const Sell = ({ tokenContract, exchangeContract }) => {
         .catch((error) => {
           console.log(error.message);
           setSellLoading(false);
-          messageApi.open({ type: "error", content: "Sale Rejected :(" });
+          messageApi.open({
+            type: "error",
+            content: "Sale Rejected :(  | Make Sure You Have Sufficient JToken",
+          });
         });
       tokenContract.on("Transfer", () => {
         setSellLoading(false);
